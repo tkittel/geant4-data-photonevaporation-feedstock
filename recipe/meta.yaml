@@ -1,5 +1,5 @@
 {% set dataset_name = "PhotonEvaporation" %}
-{% set version = "6.1" %}
+{% set version = "6.1.2" %}
 {% set env_var = "G4LEVELGAMMADATA" %}
 {% set summary = "GEANT4 data files for photon evaporation" %}
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://geant4-data.web.cern.ch/geant4-data/datasets/G4{{ dataset_name }}.{{ version }}.tar.gz
-  sha256: 5ffc1f99a81d50c9020186d59874af73c53ba24c1842b3b82b3188223bb246f2
+  sha256: 02149c0ab91d88ee24e78532558777e39a068b9fcdd199136101ff58e635e742
   folder: dataset
 
 build:
